@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "build": "rm -rf dist && ts-node ./get-version.ts && tsc",
+    "build": "tsc",
     "build:production": "npm run prestart && npm prune --production",
     "watch": "tsc -w",
     "format": "prettier --write \"**/*.ts\"",

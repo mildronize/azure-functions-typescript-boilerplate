@@ -1,5 +1,5 @@
 import { z } from 'zod';
-import { toError } from '../utils';
+import { toError } from '../../common';
 
 export const InputMatrixSchema = z.object({
   env_name: z.string(),

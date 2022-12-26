@@ -1,4 +1,4 @@
-import { parseEnv } from '../../environments/environment';
+import { parseEnv } from '../../common';
 import { functionEnvSchema } from './environment-schema';
 
 describe('Test ParseEnv for Function Call', () => {

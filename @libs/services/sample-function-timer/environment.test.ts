@@ -1,5 +1,5 @@
-import { sharedEnvMock } from '../../environments/app-environment.test';
-import { parseEnv } from '../../environments/environment';
+import { sharedEnvMock } from '../_shared/app-environment.test';
+import { parseEnv } from '../../common';
 import { functionEnvSchema } from './environment-schema';
 
 describe('Test ParseEnv for Function SampleFunctionTimer', () => {

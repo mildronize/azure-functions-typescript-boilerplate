@@ -1,5 +1,5 @@
 import { z } from 'zod';
-import { ToggleFlag } from '../../enum';
+import { ToggleFlag } from '../../common';
 
 /**
  * Require hard code for function name for correcting type

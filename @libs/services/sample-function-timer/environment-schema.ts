@@ -1,6 +1,6 @@
 import { z } from 'zod';
-import { appEnvSchema } from '../../environments/app-environment-schema';
-import { ToggleFlag } from '../../enum';
+import { appEnvSchema } from '../_shared/app-environment-schema';
+import { ToggleFlag } from '../../common';
 
 /**
  * Require hard code for function name for correcting type

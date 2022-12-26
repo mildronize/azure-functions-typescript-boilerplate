@@ -1,4 +1,4 @@
-import { parseEnv } from './environment';
+import { parseEnv } from '../../common';
 import { appEnvSchema } from './app-environment-schema';
 
 // Provide required fields
