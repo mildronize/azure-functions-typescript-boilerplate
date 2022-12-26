@@ -1,10 +1,10 @@
 import { Context } from '@azure/functions';
 import { z } from 'zod';
 
-export abstract class ICallableFunction {
+export abstract class ICallableFunction<T> {
   constructor(context: Context) {}
 
-  public async execute(): Promise<void> {
+  public async execute(): Promise<T> {
     throw new Error(`The method 'execute' is required to implement!`);
   }
 }

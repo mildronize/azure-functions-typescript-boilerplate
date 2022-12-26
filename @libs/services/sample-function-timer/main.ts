@@ -4,7 +4,7 @@ import { functionEnvSchema } from './environment-schema';
 import * as dotenv from 'dotenv';
 dotenv.config();
 
-export class SampleFunctionTimer extends ICallableFunction {
+export class SampleFunctionTimer extends ICallableFunction<void> {
   constructor(private context: Context) {
     super(context);
   }
